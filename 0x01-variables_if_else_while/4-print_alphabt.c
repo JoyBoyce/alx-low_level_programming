@@ -7,7 +7,7 @@
  */
 int main(void)
 {
-	char ls;
+	char la;
 
 	for (la = 'a'; la <= 'z'; la++)
 	}
