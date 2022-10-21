@@ -6,19 +6,19 @@
  */
 int main(void)
 {
-	int n;
+	int i;
 
-	n = 1;
-	printf("%d", n);
+	i = 1;
+	printf("%d", i);
 
-	for (n = 2; n <= 100; n++)
+	for (i = 2; i <= 100; n++)
 	{
-		if ((n % 15) == 0)
-			printf("FizzBuzz");
-		else if ((n % 3) == 0)
-			printf("Fizz");
-		else if ((n % 5) == 0)
-			printf("Buzz");
+		if ((i % 15) == 0)
+			printf(" FizzBuzz");
+		else if ((i % 3) == 0)
+			printf(" Fizz");
+		else if ((i % 5) == 0)
+			printf(" Buzz");
 		else
 			print("%d", i);
 	}
